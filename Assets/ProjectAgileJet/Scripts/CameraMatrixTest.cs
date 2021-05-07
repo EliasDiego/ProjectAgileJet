@@ -46,6 +46,8 @@ public class CameraMatrixTest : MonoBehaviour
                 Debug.Log(v.z + " && " + Vector3.Distance(transform.position, _Target.position));
             }
 
+            // Test
+
             // Gizmos.color = Color.green;
             // Gizmos.DrawLine(transform.position, (Vector3)(projectionMatrix * transform.localToWorldMatrix * new Vector3(1, 1, -1)));
             // Gizmos.color = Color.red;
